@@ -15,7 +15,13 @@
 	<p>Nägin seda veebilehte kui Mozilla oli häälestatud 3128 porti kasutama läbi FoxyProxy lisa ja PUTTY pidi ka töötama.</p>
 	<p>\(^o^)/ KODUTÖÖ TEHTUD \(^o^)/</p>
 	
-
+	<?php
+		echo "<p>Kõige esimene PHP abil väljastatud sõnum, täitsa töötab.</p>";
+		echo "<p>Täna on ";
+		echo date("d.m.Y");
+		echo ".</p>";
+		echo "<p>Lehe avamise hetkel oli kell: " .date("H:i:s") .".</p>";
+	?>
 
 </body>
 </html>
