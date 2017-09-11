@@ -1,2 +1,2 @@
-# Veebiprogrammeerimine1
+# Veebiprogrammeerimine
 IFI6076.DT
