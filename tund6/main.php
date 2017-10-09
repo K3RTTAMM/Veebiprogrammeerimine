@@ -35,7 +35,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		Andrus Rinde veebiprogemise asjad
+		Kert Tamm veebiprogemise asjad
 	</title>
 </head>
 <body>

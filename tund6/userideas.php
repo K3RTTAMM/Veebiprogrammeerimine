@@ -21,10 +21,11 @@
 		
 		if(isset($_POST["userIdea"]) and isset($_POST["ideaColor"]) and !empty($_POST["userIdea"]) and !empty($_POST["ideaColor"])){
 			//echo $_POST["ideaColor"];
-			$notice = saveIdea($_POST["userIdea"], $_POST["ideaColor"]);
+			$notice = saveIdea(test_input($_POST["userIdea"]), $_POST["ideaColor"]);
 		}
 	}
 	
+	$ideas = readAllIdeas();
 	
 ?>
 
@@ -33,7 +34,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		Andrus Rinde veebiprogemise asjad
+		Kert Tamm veebiprogemise asjad
 	</title>
 </head>
 <body>

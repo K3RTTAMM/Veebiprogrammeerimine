@@ -39,9 +39,9 @@
 			<td>kerttamm@tlu.ee</td>
 		</tr>
 		<tr>
-			<td>Mari</td>
-			<td>Karus</td>
-			<td>kasrusmari@aed.ee</td>
+			<td>Joonas</td>
+			<td>Keegi</td>
+			<td>joonas@aed.ee</td>
 		</tr>
 	
 	</table>
