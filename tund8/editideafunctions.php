@@ -1,5 +1,5 @@
 <?php
-	require("../../vpconfig.php");
+	require("../../../vpconfig.php");
 	$database = "if17_kerttamm_2";
 	
 	//loeme toimetamiseks mõtte

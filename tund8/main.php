@@ -11,7 +11,7 @@
 		session_destroy(); //lõpetab sessiooni
 		header("Location: login.php");
 	}
-	$picsDir = "../../pics/";
+	$picsDir = "../pics/";
 	$picFiles = [];
 	$picFileTypes = ["jpg", "jpeg", "png", "gif"];
 	
@@ -45,6 +45,7 @@
 	<p><a href="?logout=1">Logi välja</a></p>
 	<p><a href="usersInfo.php">Info kasutajate kohta</a></p>
 	<p><a href="userideas.php">Head mõtted</a></p>
+	<p><a href="photoupload.php">Piltide laadimine</a></p>	
 	<h2>Pilt ülikoolist</h2>
 	<img src="<?php echo $picsDir .$picFile; ?>" alt="Tallinna ülikool">
 	

@@ -1,5 +1,5 @@
 <?php
-	//require("../../vpconfig.php");
+	//require("../../../vpconfig.php");
 	require("functions.php");
 	//echo $serverHost;
 	

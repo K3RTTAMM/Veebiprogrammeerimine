@@ -12,7 +12,7 @@
 		header("Location: login.php");
 	}
 	
-	require("../../../usersinfotable.php");
+	
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@
 	<p>See veebileht on loodud õppetöö raames ning ei sisalda tõsiseltvõetavat sisu.</p>
 	<p><a href="?logout=1">Logi välja</a></p>
 	<p><a href="main.php">Pealeht</a></p>
-	<?php echo createUsersTable(); ?>
+	//<?php echo createUsersTable(); ?>
 	<hr>
 	<h3>Näidistabel oli selline</h3>
 	<table border="1" style="border: 1px solid black; border-collapse: collapse">
